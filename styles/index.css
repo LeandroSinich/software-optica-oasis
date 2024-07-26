@@ -61,3 +61,22 @@ body, html {
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.76);
     pointer-events: none; /* Para que no interfiera con el movimiento del ratón */
 }
+
+.container2{
+    display: flex;
+}
+.circle2{
+    display: inline-block;
+    border: solid 2px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.shape1{
+    display: inline-block;
+    border: solid 2px;
+    height: 100%;
+    width: 100px;
+    border-radius: 10% 40%;
+    rotate: 5deg;
+}
